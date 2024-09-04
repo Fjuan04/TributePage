@@ -1,0 +1,185 @@
+* {
+    scroll-behavior: smooth;
+}
+h1 {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+header {
+    text-align: center;
+    
+}
+figure {
+    max-width: 100%;
+
+}
+img#image{
+    height: auto;
+    width: 60%;
+    border: 3px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 4px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+figcaption {
+    border-radius: 30px;
+    margin: -2rem auto 4rem auto;
+    color: #fff;
+    width: 60%;
+    
+}
+section#tribute-info {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+ol {
+    padding-right: 30px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+ol li {
+    margin: 0 auto 4px auto;
+}
+fieldset {
+    width: 60%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 2px;
+    border-top: 1px solid;
+    border-right: 2px solid;
+    box-shadow: 4px 3px 6px ;
+
+}
+legend {
+    text-decoration: wavy;
+    font-size: 20px;   
+}
+
+section#tribute-info a {
+    text-decoration: none;
+    color: black;
+    font-size: min(3vw, 1rem);
+    margin: 1px 20px;
+    text-align: center;
+    border-right: 1px solid;
+    padding-right: 6px;
+    
+
+}
+
+section#fortnite, section#vape, section#merch {
+    width: 60%;
+    margin: 3rem auto;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+section#merch   {
+    margin-bottom: 6rem;
+}
+
+section#fortnite:before {
+    content: "";
+    display: block;
+    height: 100px; /* Altura de la barra de navegación fija */
+    margin-top: -60px;
+}
+
+section#vape:before {
+    content: "";
+    display: block;
+    height: 100px; /* Altura de la barra de navegación fija */
+    margin-top: -60px;
+}
+section#merch:before {
+    content: "";
+    display: block;
+    height: 100px; /* Altura de la barra de navegación fija */
+    margin-top: -60px;
+}
+
+section#tribute-info ol a:hover {
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    
+}
+
+section#tribute-info ol a:active {
+    color: gold;
+    transition: none;
+}
+
+*::selection {
+    color: #fff;
+    background-color: #000;
+}
+p:hover {
+    
+    font-size: 1.1rem;
+    transition:0.5s ease-out ;
+    line-height: 1.5rem;
+}
+
+section#fortnite img, section#vape img, section#merch img {
+    border: 1px solid;
+    padding: 10px;
+    max-width: 95%;
+    margin: 0 auto;
+    
+}
+
+img#image:hover {
+    
+    transition: all 3s ease-out;
+    box-shadow: 0 0 1000px;
+}
+.foot {
+    height: 200px;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    margin: -1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 2rem;
+}
+
+a#tribute-link {
+    color: #fff;
+    font-size: larger;
+    background-color: #000;
+    padding: 2px;
+
+}
+.instagram {
+    width: 60%;
+    margin: 3rem auto;
+
+}
+
+.foot ul{
+    list-style: none;
+}
+.foot ul li a {
+    color: goldenrod;
+}
+.foot ul li a:active {
+    background-color: goldenrod;
+    color: #fff;
+} 
